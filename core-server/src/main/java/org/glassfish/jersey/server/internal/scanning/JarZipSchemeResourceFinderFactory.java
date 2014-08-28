@@ -83,14 +83,14 @@ class JarZipSchemeResourceFinderFactory implements UriSchemeResourceFinderFactor
 
         try {
             if (ssp.split("!").length == 2) {
-+                return new JarZipSchemeScanner(getInputStream(jarUrlString), parent, recursive);
-+            } else {
-+                return create(new URI(jarUrlString), recursive);
-+            }
+                return new JarZipSchemeScanner(getInputStream(jarUrlString), parent, recursive);
+            } else {
+                return create(new URI(jarUrlString), recursive);
+            }
         } catch (IOException e) {
             throw new ResourceFinderException(e);
         } catch (URISyntaxException e) {
-+            throw new ResourceFinderException(e);
+            throw new ResourceFinderException(e);
         }
     }
 
