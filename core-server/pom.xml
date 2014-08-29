@@ -52,7 +52,7 @@
     <groupId>org.glassfish.jersey.core</groupId>
     <artifactId>jersey-server</artifactId>
     <packaging>jar</packaging>
-    <name>jersey-core-server</name>
+    <name>jersey-core-server-jarfix</name>
 
     <description>Jersey core server implementation</description>
 
