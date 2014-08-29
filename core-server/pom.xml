@@ -242,5 +242,18 @@
     <properties>
         <surefire.security.argline>-Djava.security.manager -Djava.security.policy=${project.build.directory}/test-classes/server.policy</surefire.security.argline>
     </properties>
+    
+      <distributionManagement>
+    <repository>
+        <id>twcgrid</id>
+        <name>twcgrid-releases</name>
+        <url>http://twcgrid.artifactoryonline.com/twcgrid/libs-releases-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>twcgrid</id>
+        <name>twcgrid-snapshots</name>
+        <url>http://twcgrid.artifactoryonline.com/twcgrid/libs-snapshots-local</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
