@@ -72,4 +72,18 @@
             <version>${project.version}</version>
         </dependency>
     </dependencies>
+    
+    <distributionManagement>
+        <repository>
+            <id>twcgrid</id>
+            <name>twcgrid-releases</name>
+            <url>http://twcgrid.artifactoryonline.com/twcgrid/libs-releases-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>twcgrid</id>
+            <name>twcgrid-snapshots</name>
+            <url>http://twcgrid.artifactoryonline.com/twcgrid/libs-snapshots-local</url>
+        </snapshotRepository>
+    </distributionManagement>
+    
 </project>
